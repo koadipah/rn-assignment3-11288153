@@ -13,11 +13,11 @@ export default function App() {
         </View>
       </View>
       <View>
-        <Image source={require('./assets/Search.png')} style = {{marginBottom: 50}}/>
+        <Image source={require('./assets/Search.png')} style = {{marginBottom: 30}}/>
       </View>
       <Text style = {{fontSize: 30, fontWeight: 'bold', marginBottom: 20}}>Categories</Text>
       <View>
-        <ScrollView  horizontal={true}>
+        <ScrollView  horizontal={true} style = {{marginBottom: 5}}>
           <View style = {styles.categoryContainer}>
             <Image source={require('./assets/young woman working online.png')} style = {styles.categoryImage}/>
             <View style = {styles.textContainer}>
@@ -89,6 +89,56 @@ export default function App() {
             </View>
           </View>
         </ScrollView>
+        <View>
+            <Text style = {{fontSize: 30, fontWeight: 'bold', marginBottom: 10}}>Ongoing Task</Text>
+            <ScrollView>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Mobile App Dev</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Web Development</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Machine Learning</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Documentation</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Push ups</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Pull Ups</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Swimming</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Basketball</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Meditation</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Fortnite</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Call of Duty</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Breakfast</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Dinner</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Reading</Text>
+              </View>
+              <View style = {styles.ongoingTaskContainer}>
+                <Text>Sleep</Text>
+              </View>
+            </ScrollView>
+        </View>
       </View>
     </View>
   );
@@ -135,5 +185,15 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
-  
+  ongoingTaskContainer: {
+    backgroundColor: 'white',
+    padding: 10,
+    width: '100%',
+    borderRadius: 10,
+    marginBottom: 20,
+    height: '12%',
+    position: 'relative',
+    alignItems: 'flex-start',
+    flex: 1
+  }
 });
