@@ -37,3 +37,13 @@ Brief Description of react components
 # Image
 
 - The Image component is used to display images in your app. It can load images from local resources or remote URL.
+
+#
+
+# Screenshots
+
+![alt text](<WhatsApp Image 2024-06-02 at 17.40.02_932003f3.jpg>)
+
+![alt text](<WhatsApp Image 2024-06-02 at 17.40.03_cc07bb0c.jpg>)
+
+![alt text](<WhatsApp Image 2024-06-02 at 17.40.03_fb05ef0e.jpg>)
